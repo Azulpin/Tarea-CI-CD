@@ -29,4 +29,5 @@ jobs:
         
     - name: Run Tests
       run: |
+        django-admin startproject core .
         python manage.py test
